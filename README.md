@@ -1,10 +1,10 @@
-# Android RC 分析与资料检索 Skills
+# Android 云服务线上分析与本地资料检索 Skills
 
 这个仓库提供两个可独立使用的 Codex skill：
 
 | Skill | 解决什么问题 | 触发方式 |
 |---|---|---|
-| `rc-analysis` | 分析 Android、ADB、云手机和容器环境中的崩溃、ANR、应用无法启动、进程被杀、Launcher 退出等故障 | `RC分析:` 或直接要求分析 Android/ADB 日志根因 |
+| `rc-analysis` | 分析 Android、ADB、容器环境中的崩溃、ANR、应用无法启动、进程被杀、Launcher 退出等故障 | `RC分析:` 或直接要求分析 Android/ADB 日志根因 |
 | `rc-internal-docs-only` | 仅从你指定的本地 RC 资料目录中检索和回答，避免混入网络、模型记忆或其他文件的内容 | `RC资料:` |
 
 ## `rc-analysis`：Android 故障因果分析
