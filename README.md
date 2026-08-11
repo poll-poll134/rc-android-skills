@@ -1,5 +1,7 @@
 # Android 云服务线上分析与本地资料检索自动化 Skills
 
+[简体中文](README.md) | [English](README.en.md)
+
 这个仓库提供两个可独立使用的 Codex skill：
 
 | Skill | 解决什么问题 | 触发方式 |
