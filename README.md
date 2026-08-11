@@ -1,4 +1,4 @@
-# Android 云服务线上分析与本地资料检索 Skills
+# Android 云服务线上分析与本地资料检索自动化 Skills
 
 这个仓库提供两个可独立使用的 Codex skill：
 
@@ -9,15 +9,16 @@
 
 ## `rc-analysis`：Android 故障因果分析
 
-### 适用问题
+### 适用问题以及场景
+- 【RC分析: 一个adb地址与简单问题描述，实现自动化分析】
+- 各类线上Android云服务/容器 场景异常问题分析与自动化搜集异常日志
+- 同宿主多容器、跨宿主多端点的共性故障对比，避免猜测与幻觉基于实锤日志的问题进行分析
+- 判定“是应用问题、系统执行机制，还是容器/宿主责任域”，对相关原始日志与问题分析的规范自动化归档
 
-- 应用启动后立即退出、无法进入 Activity，或强制回到 Launcher。
-- Java crash、native crash、ANR、tombstone、DropBox 事件。
-- `ActivityManager: Killing`、`am_kill`、LMKD、`excessive cpu` 等进程终止问题。
-- `InputDispatcher channel broken`、Binder 死亡、Activity 生命周期异常。
-- 当前 logcat 已轮转，需要结合 `/data/misc/logd`、tombstone 或用户提供的历史日志。
-- 同宿主多容器、跨宿主多端点的共性故障对比。
-- 判定“是应用问题、系统执行机制，还是容器/宿主责任域”。
+- 【RC资料: 利用llm解析，实现本地内部资料知识库检索】
+- 自动根据配置的本地资料文件，检索本地资料
+- 输出基于本地内部资料的可靠答案
+- 适用于更新变化较少的固定经验与信息
 
 ### 它会做什么
 
