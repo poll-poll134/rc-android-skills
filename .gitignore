@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+
+# Runtime evidence must stay outside source control.
+incident-analysis/
+adb-causality-*/
+raw/
+*.log
+*.tombstone
